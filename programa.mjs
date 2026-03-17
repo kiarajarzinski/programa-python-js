@@ -28,5 +28,8 @@ let listaordena = [...personas].sort((a, b) => b[2] - a[2]);
 
 console.log("Lista ordenada:" , listaordena);
 
+let suma_notas = personas.reduce((totalsuma, persona) => (totalsuma + persona[2]), 0);
+console.log("Promedio:", suma_notas / personas.length);
+
 
 
