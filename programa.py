@@ -18,3 +18,11 @@ while ( True ):
 
     print (lista_ordenada)
 
+    suma_notas = 0 
+    for posicion in lista_ordenada:
+        suma_notas += posicion[2]
+
+    promedio = suma_notas / len(lista_ordenada)
+    
+    print ( "El promedio de las notas es:", promedio)
+
