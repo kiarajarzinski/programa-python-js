@@ -24,5 +24,9 @@ console.log("Lista de personas:" , personas);
 
 rl.close
 
+let listaordena = [...personas].sort((a, b) => b[2] - a[2]);
+
+console.log("Lista ordenada:" , listaordena);
+
 
 
