@@ -14,3 +14,7 @@ while ( True ):
 
     print (personas)
 
+    lista_ordenada = sorted(personas, key=lambda posicion: posicion[2], reverse=True)
+
+    print (lista_ordenada)
+
